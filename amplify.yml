@@ -6,7 +6,7 @@ frontend:
         - npm install
     build:
       commands:
-        - npm run buildgit add -A
+        - npm run build
     test:
       commands:
         - CI=true npm test
